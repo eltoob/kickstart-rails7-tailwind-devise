@@ -6,5 +6,11 @@ Rails.application.routes.draw do
   # root "articles#index"
   root "home#index"
   get "/dashboard", to: "home#dashboard"
-  devise_for :users
+  devise_for :users, controllers: {
+                       sessions: "users/sessions",
+                       password: "users/password",
+                       registrations: "users/registrations",
+                       unlocks: "users/unlocks",
+
+                     }
 end
