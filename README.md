@@ -1,4 +1,5 @@
-# Rails Application Readme
+# Kickstart is a template for a rails app with a lot of goodies
+# RAILS 7 + TAILWINDCSS + DEVISE + DASHBOARD SHELL (with tailwindUI) + PostgreSQL + nice flash messages and other goodies
 
 ## Introduction
 
